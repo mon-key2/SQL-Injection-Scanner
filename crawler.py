@@ -12,7 +12,7 @@ def get_all_forms(url, session):
         return []
 
 def get_form_details(form):
-    """Extracts action, method, and inputs from a form."""
+    
     details = {}
     details["action"] = form.attrs.get("action", "").lower()
     details["method"] = form.attrs.get("method", "get").lower()
