@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 def get_all_forms(url, session):
-    """Finds all forms on a given URL using a specific session."""
     try:
         response = session.get(url)
         soup = BeautifulSoup(response.content, "html.parser")
