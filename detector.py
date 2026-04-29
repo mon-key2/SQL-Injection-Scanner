@@ -9,6 +9,7 @@ def is_vulnerable(response):
         "check the manual that corresponds to your mariadb server",
         "near ''''' at line 1",
         "sqlite3.operationalerror"
+      "Error: SQLSTATE[42000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Unclosed quotation mark after the character string ' '. "
         
     ]
     
