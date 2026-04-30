@@ -4,9 +4,9 @@ from detector import is_vulnerable
 from urllib.parse import urljoin
 
 
-TARGET_URL = "http://localhost:8080/vulnerabilities/sqli/" 
+TARGET_URL = "http://localhost:8080/vulnerabilities/sqli/" #enter the target you want to scan
 
-PHPSESSID = "s3ofa6s1dm54n89lotucbg6bs6"
+PHPSESSID = "ssid123"#enter the session id or cookie
 
 session = requests.Session()
 session.cookies.set("PHPSESSID", PHPSESSID)
